@@ -1,0 +1,102 @@
+    <style>
+        body{
+            background: linear-gradient(black,white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            height:730px;
+        }
+        .container{
+            margin-bottom: 50px;
+            height: 550px;
+            width: 700px;
+            background: linear-gradient(to bottom, #ef65cc 0%, #33ccff 100%);
+            border-radius: 30px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+        }
+        .enter{
+            font-size: 40px;
+            margin-left: 5px;
+        }
+        .input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            margin-top: 10px;
+            width: 300px;
+            margin-left: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .ent-inp{
+            display: flex;
+            
+        }
+
+        .from{
+            font-size: 35px;
+            display: flex;
+            margin-top: 40px;
+            margin-left: 5px;
+
+        }
+
+        select{
+            height: 40px;
+            width: 430px;
+            font-size: 22px;
+            margin-left: 10px;
+            cursor: pointer;
+
+            
+        }
+        .fa-arrows-up-down{
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .to{
+            font-size: 35px;
+            display: flex;
+            margin-top: 40px;
+        }
+
+        .getratetext{
+            font-size: 50px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .but{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:35px;
+            height: 60px;
+            margin-left: 130px;
+            width: 400px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+        .but:hover{
+            background-color: #f1a6df;
+        }
+
+        .to,.to-select{
+            margin-left: 27px;
+        }
+
+    </style>
